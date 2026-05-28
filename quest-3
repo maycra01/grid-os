@@ -1,0 +1,16 @@
+// (i)
+
+HEADS AAA
+
+START *** SEARCH *** SRD
+
+SEARCH ##* SEARCH *** RRR
+SEARCH #=* LEFT *~* RRR
+SEARCH ==* SEARCH ~*~ RRR
+SEARCH =#* SEARCH ~** RRR
+SEARCH *_* STOP *** SSS
+
+LEFT ~#* SEARCH *** RRR
+LEFT ~=* SEARCH ~** RRR
+
+// Wait I actually managed to get onto the leaderboard, what?! 
