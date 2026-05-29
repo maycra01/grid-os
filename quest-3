@@ -14,3 +14,88 @@ LEFT ~#* SEARCH *** RRR
 LEFT ~=* SEARCH ~** RRR
 
 // Wait I actually managed to get onto the leaderboard, what?! 
+
+// (ii)
+HEADS AAAA
+
+START **** ONE **** SRRD
+ONE **** SEARCH **** SSRS
+
+SEARCH ###_ SEARCH **** RRRR
+SEARCH ##=* SEARCH **** RRRR
+SEARCH #=#* LEFT **** RRRR
+SEARCH #==_ LEFT *~** RRRR
+SEARCH **_* STOP **** SSSS
+
+LEFT ~==* LEFTT **** RRRR
+LEFT =#** SEARCH ~*** RRRR
+LEFT ~=#* LEFT **** RRRR
+
+LEFTT ==#* LEFT ~**~ RRRR
+LEFTT ===* DOWN ~**~ RRRR
+
+
+DOWN ===_ UP ~**~ SSSD
+DOWN ==#* LEFT ~**~ RRRR
+UP ~==_ RIGHT ***~ SSSU
+RIGHT ~==* DOWN **** RRRR
+
+
+// (iii) I mean the fact that I managed to do this by just staring at a poorly drawn state machine diagram, this can be improved but I have an a-level in like what 2 days, ah. 
+
+HEADS AA
+
+START ** SEARCH ** SS
+
+SEARCH #* SEARCH ** RR
+SEARCH _* TASK ** LL
+SEARCH =* CENTRE ** SS 
+
+CENTRE == CENTRE ** SR
+CENTRE =# LEFT ** SL
+
+LEFT == RIGHT w* RS 
+LEFT ww FOUND RL SR
+
+RIGHT == LEFT *w SL
+RIGHT w= FOUND *O SL
+RIGHT ww FOUND *C SR
+RIGHT #w FOUND *~ SR
+
+FOUND ## SEARCH ** RR
+FOUND ww FOUND ** RR
+FOUND RR FOUND ** RR
+
+TASK #* TASK ** LL
+TASK w* TASK ** LL
+TASK ~* TASK ** LL
+TASK L* TASK ** LL
+TASK R* PLACE w* SS
+TASK C* REPLACE R* LS
+TASK _* TASK2 ** RR
+
+REPLACE ** TASK L* RS
+
+
+PLACE *w PLACE ~* DR
+PLACE *# UP ** RR
+
+UP _* UP ** UL
+UP ww PLACE ~* DR
+UP ## TASK ** LL
+
+
+TASK2 #* TASK2 ** RR
+TASK2 w* TASK2 ** RR
+TASK2 ~* TASK2 ** RR
+TASK2 L* PLACE2 w* SS
+TASK2 _* STOP ** SS
+
+
+PLACE2 *w PLACE2 ~* DL
+PLACE2 *# UP2 ** LL
+
+UP2 _* UP2 ** UR
+UP2 ww PLACE2 ~* DL
+UP2 ## TASK2 ** RR
+
